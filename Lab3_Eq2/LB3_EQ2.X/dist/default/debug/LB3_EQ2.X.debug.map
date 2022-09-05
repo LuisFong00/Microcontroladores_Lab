@@ -6,7 +6,7 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v2.40\pic\dat\20220703182018_en.msgs \
   -cs -h+dist/default/debug\LB3_EQ2.X.debug.sym \
   --cmf=dist/default/debug\LB3_EQ2.X.debug.cmf -z -Q18F57Q43 \
-  -oC:\Users\LUISES~1\AppData\Local\Temp\xcAsnlk.4 --fixupoverflow=error \
+  -oC:\Users\LUISES~1\AppData\Local\Temp\xcAsspo.4 --fixupoverflow=error \
   -ver=XC8 PIC(R) Assembler --fixupoverflow=lstwarn \
   -Mdist/default/debug/LB3_EQ2.X.debug.map -E1 --acfsm=1493 \
   -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh -ASMALLCONST=02600h-026FFhx474 \
@@ -38,11 +38,11 @@ Machine type is 18F57Q43
 build/default/debug/main.o
                 config                           300000   300000        A        0       4
                 absdata                            1000     1000        4        0       0
-                code                               1004     1004       42      802       0
+                code                               1004     1004       4A      802       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
-                code                               1004     1004       42         0
+                code                               1004     1004       4A         0
 
         CLASS   CONST          
 
@@ -139,7 +139,7 @@ TOTAL           Name                               Link     Load   Length     Sp
 
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
 
-                code                           001004  000042  001046       802       0  CODE    
+                code                           001004  00004A  00104E       802       0  CODE    
 
 
 UNUSED ADDRESS RANGES
@@ -178,15 +178,15 @@ UNUSED ADDRESS RANGES
         BANK8            000800-0008FF              100
         BANK9            000900-0009FF              100
         BIGRAM           000500-000FFF              B00
-                         001046-0024FF             14BA
+                         00104E-0024FF             14B2
         BIGSFR           000000-0004FF              500
                          002500-0025FF              100
         CODE             000000-000FFF             1000
-                         001046-01FFFF            1EFBA
+                         00104E-01FFFF            1EFB2
         COMRAM           000500-00055F               60
         CONFIG           30000A-300011                8
         CONST            000000-000FFF             1000
-                         001046-01FFFF            1EFBA
+                         00104E-01FFFF            1EFB2
         EEDATA           380000-3803FF              400
         IDLOC            200000-20003F               40
         MEDIUMCONST      002600-00FFFF             DA00
@@ -243,6 +243,6 @@ __Ludata_bank34 udata_bank34 000000  __Ludata_bank35 udata_bank35 000000
 __Ludata_bank36 udata_bank36 000000  __Ludata_bank5  udata_bank5  000000
 __Ludata_bank6  udata_bank6  000000  __Ludata_bank7  udata_bank7  000000
 __Ludata_bank8  udata_bank8  000000  __Ludata_bank9  udata_bank9  000000
-__S0            (abs)        001046  __S1            (abs)        000000
+__S0            (abs)        00104E  __S1            (abs)        000000
 __S3            (abs)        000000  isa$std         (abs)        000001
 isa$xinst       (abs)        000000  

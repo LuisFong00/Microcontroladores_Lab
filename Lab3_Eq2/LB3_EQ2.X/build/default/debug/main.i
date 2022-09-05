@@ -32586,6 +32586,10 @@ LOOP:
     MOVWF ((MS) and 0FFh),0
     CALL DELAY; 2
     BCF LATF,3,0
+    MOVLW 0XD6
+    MOVWF ((TIMES) and 0FFh),0
+    MOVLW 0X04
+    MOVWF ((MS) and 0FFh),0
     CALL DELAY
     GOTO LOOP
 

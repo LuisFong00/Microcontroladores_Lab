@@ -9,12 +9,12 @@
 
 ### Memory Usage ###
  Intel Hex-file ranges:
-  1000h - 1045h		(dist/default/debug\LB3_EQ2.X.debug.hex)
+  1000h - 104Dh		(dist/default/debug\LB3_EQ2.X.debug.hex)
   300000h - 300007h		(dist/default/debug\LB3_EQ2.X.debug.hex)
   300009h - 300009h		(dist/default/debug\LB3_EQ2.X.debug.hex)
  Unused ranges:
   0h - FFFh
-  1046h - 2FFFFFh
+  104Eh - 2FFFFFh
   300008h - 300008h
 
 ### Hex Memory Map ###
@@ -28,7 +28,7 @@
 00001010 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00001020 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00001030 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00001040 | H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- --
+00001040 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
 ----------------------------------------------------------
 00300000 | H1 H1 H1 H1 H1 H1 H1 H1 -- H1 -- -- -- -- -- --
 00300010 | --

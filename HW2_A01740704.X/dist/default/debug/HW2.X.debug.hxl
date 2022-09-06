@@ -1,0 +1,36 @@
+### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ dist/default/debug\HW2.X.debug.hex
+ -Odist/default/debug\HW2.X.debug.hex
+ -logfile=dist/default/debug\HW2.X.debug.hxl
+ -addressing=1
+ -break=300000
+
+### Memory Usage ###
+ Intel Hex-file ranges:
+  1000h - 1069h		(dist/default/debug\HW2.X.debug.hex)
+  300000h - 300007h		(dist/default/debug\HW2.X.debug.hex)
+  300009h - 300009h		(dist/default/debug\HW2.X.debug.hex)
+ Unused ranges:
+  0h - FFFh
+  106Ah - 2FFFFFh
+  300008h - 300008h
+
+### Hex Memory Map ###
+ Legend:
+  -- = Unused memory
+  H1 = Intel Hex-file         (dist/default/debug\HW2.X.debug.hex)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+00001000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001010 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001020 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001030 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001040 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001050 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001060 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
+----------------------------------------------------------
+00300000 | H1 H1 H1 H1 H1 H1 H1 H1 -- H1 -- -- -- -- -- --
+00300010 | --

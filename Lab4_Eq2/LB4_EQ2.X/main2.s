@@ -1,0 +1,55 @@
+PROCESSOR   18F45K50
+#include    <xc.inc>
+#include    "configuration_bits.inc"
+#include    "delays.inc"
+
+PSECT udata_acs
+; DECLARE HERE YOUR VARIABLES WITH FORMAT: "VAR_NAME: DS 1"
+POS: DS 1
+i:  DS 1
+l:  DS 1
+
+PSECT	resetVec, class=CODE, reloc=2
+
+PSECT	absdata, abs, ovrld
+absdata:
+    org	    0x1000
+
+resetVec:
+    goto    MAIN
+
+PSECT code
+MAIN:
+    ; CLOCK CONFIGURATION
+    BANKSEL OSCCON	;ACCESS TO OSCCON REGISTER 
+    MOVLW   0x5E	   ;4MHZ FREQUENCY OF INTERNAL OSCILLATOR
+    MOVWF   OSCCON,1	;LOAD DATA THROUGH BSR
+
+    ; GPIO CONFIGURATION
+    CLRF    TRISB,0   ;CONFIGURE PORT B AS OUTPUT
+    SETF    LATB,0    ;TURN OFF LEDS CONNECTED TO PORT B
+    
+KNIGHT_RIDER:
+    MOVLW   0XFE
+    MOVWF   BANKMASK(POS),0
+    MOVLW   0X07
+    MOVWF   BANKMASK(i),0
+    MOVWF   BANKMASK(l),0
+DRIVE_LEFT:
+    MOVFF   POS,0x4BF
+    CALL    delay_50ms
+    RLNCF   BANKMASK(POS),1,0
+    DECFSZ  BANKMASK(i),1,0
+    GOTO    DRIVE_LEFT
+DRIVE_RIGHT:
+    MOVFF   POS,0x4BF
+    CALL    delay_50ms
+    RRNCF   BANKMASK(POS),1,0
+    DECFSZ  BANKMASK(l),1,0
+    GOTO    DRIVE_RIGHT
+    GOTO    KNIGHT_RIDER
+
+END resetVec
+
+
+

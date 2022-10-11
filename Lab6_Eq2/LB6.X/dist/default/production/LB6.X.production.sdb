@@ -1,0 +1,469 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fabsf.c
+[v _fabsf fabsf `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nanf.c
+[v _nanf nanf `(f  1 e 4 0 ]
+"53 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\powf.c
+[v _powf powf `JJ(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\scalbnf.c
+[v _scalbnf scalbnf `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"22 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sqrtf.c
+[v _sqrtf sqrtf `(f  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"53 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\main.c
+[v _char_to_seg char_to_seg `(uc  1 e 1 0 ]
+"75
+[v _send_to_disp send_to_disp `(v  1 e 1 0 ]
+"85
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"73
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1281 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f57q43.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+"1338
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1400
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1451
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+"1507
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+"1558
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1620
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+"1682
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+"5141
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5211
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5351
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5391
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5449
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5651
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"15475
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"15607
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"15739
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"15871
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"39117
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"39179
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"39241
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"39303
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"39365
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"39613
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"39675
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"39737
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"39799
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"39861
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"40109
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"40171
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"40233
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"40295
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"40357
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"40605
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"40667
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"40729
+[v _ODCOND ODCOND `VEuc  1 e 1 @1050 ]
+"40791
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @1051 ]
+"40853
+[v _INLVLD INLVLD `VEuc  1 e 1 @1052 ]
+"40915
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"40947
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"40985
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"41017
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @1059 ]
+"41049
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"41150
+[v _ANSELF ANSELF `VEuc  1 e 1 @1064 ]
+"41212
+[v _WPUF WPUF `VEuc  1 e 1 @1065 ]
+"41274
+[v _ODCONF ODCONF `VEuc  1 e 1 @1066 ]
+"41336
+[v _SLRCONF SLRCONF `VEuc  1 e 1 @1067 ]
+"41398
+[v _INLVLF INLVLF `VEuc  1 e 1 @1068 ]
+"47513
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"47575
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"47637
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"47699
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"47761
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"47793
+[v _LATF LATF `VEuc  1 e 1 @1219 ]
+"47855
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"47917
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"47979
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"48041
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"48103
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"48135
+[v _TRISF TRISF `VEuc  1 e 1 @1227 ]
+"3 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"20 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\powf.c
+[v _bp bp `C[2]f  1 s 8 bp ]
+"21
+[v _dp_h dp_h `C[2]f  1 s 8 dp_h ]
+"22
+[v _dp_l dp_l `C[2]f  1 s 8 dp_l ]
+"85 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"93
+} 0
+"75
+[v _send_to_disp send_to_disp `(v  1 e 1 0 ]
+{
+"78
+[v send_to_disp@sweep sweep `i  1 a 2 58 ]
+"77
+[v send_to_disp@internal_sweep internal_sweep `i  1 a 2 56 ]
+"80
+[v send_to_disp@num_disp num_disp `uc  1 a 1 60 ]
+"76
+[v send_to_disp@i i `uc  1 a 1 61 ]
+"75
+[v send_to_disp@disp_word disp_word `ul  1 p 4 48 ]
+"84
+} 0
+"53 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\powf.c
+[v _powf powf `JJ(f  1 e 4 0 ]
+{
+"155
+[v powf@s2 s2 `f  1 a 4 140 ]
+[v powf@s_h s_h `f  1 a 4 108 ]
+[v powf@t_h t_h `f  1 a 4 104 ]
+[v powf@t_l t_l `f  1 a 4 52 ]
+[v powf@s_l s_l `f  1 a 4 48 ]
+[u S574 . 4 `f 1 f 4 0 `l 1 s 4 0 `ul 1 u 4 0 ]
+"59
+[v powf@__xc8_float_word __xc8_float_word `S574  1 a 4 184 ]
+"55
+[v powf@z z `f  1 a 4 180 ]
+"56
+[v powf@t t `f  1 a 4 176 ]
+"57
+[v powf@j j `l  1 a 4 172 ]
+"58
+[v powf@ix ix `l  1 a 4 168 ]
+"57
+[v powf@k k `l  1 a 4 160 ]
+"55
+[v powf@p_h p_h `f  1 a 4 156 ]
+"58
+[v powf@iy iy `l  1 a 4 152 ]
+[v powf@is is `l  1 a 4 144 ]
+"56
+[v powf@sn sn `f  1 a 4 136 ]
+"58
+[v powf@hy hy `l  1 a 4 132 ]
+"56
+[v powf@t1 t1 `f  1 a 4 128 ]
+"57
+[v powf@n n `l  1 a 4 124 ]
+"56
+[v powf@v v `f  1 a 4 120 ]
+[v powf@u u `f  1 a 4 116 ]
+"55
+[v powf@ax ax `f  1 a 4 112 ]
+[v powf@p_l p_l `f  1 a 4 100 ]
+"58
+[v powf@hx hx `l  1 a 4 96 ]
+"56
+[v powf@s s `f  1 a 4 92 ]
+"57
+[v powf@yisint yisint `l  1 a 4 80 ]
+"56
+[v powf@r r `f  1 a 4 76 ]
+[v powf@w w `f  1 a 4 68 ]
+"57
+[v powf@i i `l  1 a 4 44 ]
+"56
+[v powf@y1 y1 `f  1 a 4 40 ]
+"55
+[v powf@z_l z_l `f  1 a 4 36 ]
+[v powf@z_h z_h `f  1 a 4 32 ]
+"56
+[v powf@t2 t2 `f  1 a 4 28 ]
+"53
+[v powf@x x `f  1 p 4 36 ]
+[v powf@y y `f  1 p 4 40 ]
+"268
+} 0
+"22 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sqrtf.c
+[v _sqrtf sqrtf `(f  1 e 4 0 ]
+{
+"26
+[v sqrtf@ix ix `l  1 a 4 32 ]
+"27
+[v sqrtf@r r `ul  1 a 4 28 ]
+"26
+[v sqrtf@m m `l  1 a 4 24 ]
+"24
+[v sqrtf@z z `f  1 a 4 20 ]
+"26
+[v sqrtf@t t `l  1 a 4 16 ]
+[v sqrtf@q q `l  1 a 4 12 ]
+[u S574 . 4 `f 1 f 4 0 `l 1 s 4 0 `ul 1 u 4 0 ]
+"28
+[v sqrtf@__xc8_float_word __xc8_float_word `S574  1 a 4 8 ]
+"26
+[v sqrtf@i i `l  1 a 4 4 ]
+[v sqrtf@s s `l  1 a 4 0 ]
+"22
+[v sqrtf@x x `f  1 p 4 61 ]
+"89
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nanf.c
+[v _nanf nanf `(f  1 e 4 0 ]
+{
+[u S662 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v nanf@u u `S662  1 a 4 4 ]
+"4
+[v nanf@s s `*.32Cuc  1 p 2 0 ]
+"9
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 49 ]
+[v ___flge@ff2 ff2 `d  1 p 4 53 ]
+"19
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\scalbnf.c
+[v _scalbnf scalbnf `(f  1 e 4 0 ]
+{
+"7
+[v scalbnf@y y `f  1 a 4 55 ]
+[u S662 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v scalbnf@u u `S662  1 a 4 51 ]
+"4
+[v scalbnf@x x `f  1 p 4 41 ]
+[v scalbnf@n n `i  1 p 2 45 ]
+"31
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S439 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S444 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S447 . 4 `l 1 i 4 0 `d 1 f 4 0 `S439 1 fAsBytes 4 0 `S444 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S447  1 a 4 35 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 29 ]
+[s S515 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S518 . 2 `s 1 i 2 0 `us 1 n 2 0 `S515 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S518  1 a 2 39 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 34 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 33 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 28 ]
+"8
+[v ___flmul@b b `d  1 p 4 16 ]
+[v ___flmul@a a `d  1 p 4 20 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fabsf.c
+[v _fabsf fabsf `(f  1 e 4 0 ]
+{
+[u S662 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v fabsf@u u `S662  1 a 4 4 ]
+"4
+[v fabsf@x x `f  1 p 4 0 ]
+"5
+[v fabsf@F465 F465 `S662  1 s 4 F465 ]
+"9
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 41 ]
+[v ___flsub@a a `d  1 p 4 45 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 15 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 14 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 13 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 12 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 68 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 61 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 66 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 73 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 72 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 65 ]
+"11
+[v ___fldiv@b b `d  1 p 4 49 ]
+[v ___fldiv@a a `d  1 p 4 53 ]
+"185
+} 0
+"53 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\main.c
+[v _char_to_seg char_to_seg `(uc  1 e 1 0 ]
+{
+[v char_to_seg@num num `uc  1 a 1 wreg ]
+"54
+[v char_to_seg@segments segments `uc  1 a 1 3 ]
+"53
+[v char_to_seg@num num `uc  1 a 1 wreg ]
+[v char_to_seg@num num `uc  1 a 1 2 ]
+"74
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 88 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 87 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 44 ]
+"70
+} 0
+"50 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"73
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"55 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"141
+} 0
+"57 C:\Users\Luis Espinoza Fong\Downloads\LAB-6_EQ2-main\LAB-6_EQ2-main\Práctica 6\LB6.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
